@@ -29,6 +29,9 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-        #   cname:  
+          cname:  yehlincho.github.io.git
+          ## revised
           allow_empty_commit: true
           external_repository: yehlincho/yehlincho.github.io.git
+
+        
