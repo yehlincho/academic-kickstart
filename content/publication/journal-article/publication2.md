@@ -1,17 +1,18 @@
 ---
 title: "	
-FRACTAL: Signal amplification of immunofluorescence via cyclic staining of target molecules"
+Simultaneous amplification of multiple immunofluorescence signals via cyclic staining of target molecules using mutually cross-adsorbed antibodies"
 authors:
+- Haemin Yeon
 - admin
-- Junyoung Seo, Yeonbo Sim, Jinkyoung Chung, Chan E Park, Chun Gwon Park, Doory Kim, Jae-Byum Chang
+- Junyoung Seo, Yeonbo Sim, Jae-Byum Chang
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2020-01-01"
+date: "2022-05-24"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-01-01"
+publishDate: "2022-05-24"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -19,10 +20,13 @@ publishDate: "2020-01-01"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Nanoscale"
+publication: "
+Journal
+"
 publication_short: ""
 
-abstract: In this article, we demonstrate fluorescent signal amplification via cyclic staining of target molecules (FRACTAL), a technique that can amplify the signal intensity of immunofluorescence staining more than nine-fold via simple cyclic staining of secondary antibodies. We also show that FRACTAL is compatible with four-color imaging and expansion microscopy imaging..
+abstract: Amplification of immunofluorescence (IF) signals is becoming increasingly critical in cancer research and neuroscience. Recently, we put forward a new signal amplification technique, which we termed fluorescent signal amplification via cyclic staining of target molecules (FRACTAL). FRACTAL amplifies IF signals by repeatedly labeling target proteins with a pair of secondary antibodies that bind to each other. However, simultaneous amplification of multiple IF signals via FRACTAL has not yet been demonstrated because of cross-reactivity between the secondary antibodies. In this study, we show that mutual cross-adsorption between antibodies can eliminate all forms of cross-reactions between them, enabling simultaneous amplification of multiple IF signals. First, we show that a typical cross-adsorption process—in which an antibody binds to proteins with potential cross-reactivity with the antibody—cannot eliminate cross-reactions between antibodies in FRACTAL. Next, we show that all secondary antibodies used in FRACTAL need to be mutually cross-adsorbed to eliminate all forms of cross-reactivity, and then we demonstrate simultaneous amplification of multiple IF signals using these antibodies. Finally, we show that multiplexed FRACTAL can be applied to expansion microscopy to achieve higher fluorescence intensities after expansion. Multiplexed FRACTAL is a highly versatile tool for standard laboratories, as it amplifies multiple IF signals without the need for custom antibodies.
+
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -34,7 +38,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://pubs.rsc.org/en/content/articlelanding/2020/nr/d0nr05800a/unauth
+url_pdf: https://www.nature.com/articles/s41598-022-12808-y
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: ''
 # url_poster: ''
