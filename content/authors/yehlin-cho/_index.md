@@ -77,5 +77,5 @@ email: 'yehlin@mit.edu'
 highlight_name: true
 ---
 
-I am a third-year graduate student at MIT in the Department of Materials Science and Engineering (DMSE). My research interests include utilizing machine learning for protein structure prediction and engineering.
+I am a fourth-year graduate student at MIT in the Department of Materials Science and Engineering (DMSE) and Biology. My research interests include utilizing machine learning for protein structure prediction and engineering. I am currently working under the guidance of Prof. Sergey Ovchinnikov.
 {style="text-align: justify;"}
