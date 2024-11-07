@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   deploy:
@@ -17,19 +17,18 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.101.0' 
+          hugo-version: '0.73.0'
           extended: true
 
       - name: Build
-        run:  hugo --minify
+        run: hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{secrets.ACTIONS_DEPLOY_KEY}}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
-          publish_branch: main  # deploying branch
+          publish_branch: master  # deploying branch
+          cname: academic-pages-demo.lakemper.eu
           allow_empty_commit: true
-          external_repository: yehlincho/yehlincho.github.io
-
-        
+          external_repository: sloede/academic-pages-demo
